@@ -20,14 +20,14 @@ p {
 
 .banner-background {
   color: white;
-  padding: 100px;
+  padding: 15%;
 }
-
 .banner-background p {
   width: 40%;
   margin: auto;
-  margin-bottom: 5%;
+  margin: 4% auto;
   color: white;
+  line-height: 25px;
 }
 h1 {
   font-size: 3rem;
@@ -71,41 +71,42 @@ section {
   margin-top: 80px;
 }
 .donate-area p {
-  width: 35%;
+  width: 45%;
   margin: auto;
   margin-bottom: 2%;
 }
 
 .flexible-content {
   display: flex;
-}
-
-.amount-content {
-  margin-left: 30%;
-  margin-right: 30%;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .amount {
-  margin: auto;
-  background-color: rgba(173, 170, 170, 0.202);
-  color: gray;
-  width: 10%;
-  font-size: 1rem;
-  font-weight: bold;
-  padding: 4%;
-  box-shadow: 1px 1px 5px rgb(205, 201, 201);
-  border-radius: 5%;
+  margin: 1%;
+  width: 4%;
+
+  background-color: lightgray;
+  padding: 3%;
+  border-radius: 3%;
+  font-weight: 700;
 }
-.amount-content h1:hover {
+.amount:hover {
   border: 2px solid tomato;
   background: #f3ccc4;
   color: tomato;
 }
-.input-donate {
+.amount-input input {
+  width: 57%;
+  margin: auto;
+  display: block;
+  margin: 3% auto;
   border: none;
-  border-bottom: 2px solid gray;
+  outline: none;
   text-align: center;
-  margin-top: 4%;
+  border-bottom: 2px solid gray;
+  padding: 0.5%;
+  font-weight: 700;
 }
 .donate-plans {
   width: 70%;
@@ -171,7 +172,7 @@ form input {
   font-weight: bold;
 }
 form button {
-  width: 15%;
+  width: 20%;
   padding: 2%;
   border: none;
   background-color: rgb(205, 201, 201);
